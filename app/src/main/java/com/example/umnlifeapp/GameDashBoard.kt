@@ -6,14 +6,14 @@ import android.util.Log
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import com.example.umnlifeapp.R
-import com.example.umnlifeapp.databinding.ActivityMainBinding
+import com.example.umnlifeapp.ActivityMainBinding
 
 
 class GameDashboard : AppCompatActivity() {
     private var currentSemester: Int = 1
     private lateinit var clock: WaktuGame
     private lateinit var semesterTextView: TextView
-    private lateinit var mahasiswa: Mahasiswa
+    private lateinit var mahasiswa: MahasiswaOverall
     private lateinit var binding: ActivityMainBinding
 
 
