@@ -12,8 +12,29 @@
         android:theme="@style/Theme.UMNLifeApp"
         tools:targetApi="31">
         <activity
+            android:name=".quizTime"
+            android:exported="true"
+            android:screenOrientation="landscape" />
+        <activity android:name=".playRules"
+            android:exported="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityInGame"
+            android:exported="true"
+            android:screenOrientation="landscape" />
+        <activity android:name=".Congratulations"
+            android:exported="true"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Lose"
+            android:exported="true"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Info"
+            android:exported="true"
+            android:screenOrientation="landscape"/>
+        <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">UMNLifeApp</string>
+    <string name="belajar">Belajar</string>
+    <string name="tidur">Tidur</string>
+    <string name="makan">Makan</string>
+    <string name="buttonmakan">buttonMakan</string>
+    <string name="senang">Senang</string>
+    <string name="bangun_jam">Mau bangun jam berapa?</string>
+    <string name="cancel">cancel</string>
+    <string name="info" />
+    <string name="reset_data_game">Reset Data Game</string>
+    <string name="rule" />
 </resources>
