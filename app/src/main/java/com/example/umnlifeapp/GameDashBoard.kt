@@ -20,7 +20,7 @@ class GameDashboard : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        mahasiswa = MahasiswaOverall("Andrew")
+        mahasiswa = MahasiswaOverall("Johan")
         binding = ActivityMainBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
