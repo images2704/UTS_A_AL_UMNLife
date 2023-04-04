@@ -1,4 +1,5 @@
 package com.example.umnlifeapp
+
 import android.content.ContentValues.TAG
 import android.os.Bundle
 import android.os.CountDownTimer
@@ -6,7 +7,7 @@ import android.util.Log
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import com.example.umnlifeapp.R
-import com.example.umnlifeapp.ActivityMainBinding
+import com.example.umnlifeapp.databinding.ActivityMainBinding
 
 
 class GameDashboard : AppCompatActivity() {
@@ -21,9 +22,8 @@ class GameDashboard : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         mahasiswa = MahasiswaOverall("Andrew")
         binding = ActivityMainBinding.inflate(layoutInflater)
-        val view = binding.root.apply {
-            setContentView(this)
-        }
+        val view = binding.root
+        setContentView(view)
         binding.progressPengetahuan.progress = mahasiswa.pengetahuan
         semesterTextView = findViewById(R.id.textView)
 

@@ -13,4 +13,12 @@ class Mahasiswa(val nama:String, private var kenyang: Int = 50,
     fun kurangiKenyang(angka: Int) {
         kenyang -= angka
     }
+
+    fun tambahiPengetahuan(angka: Int) {
+        pengetahuan += angka
+    }
+
+    fun kurangiPengetahuan(angka: Int) {
+        pengetahuan -= angka
+    }
 }

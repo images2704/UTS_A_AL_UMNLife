@@ -4,7 +4,6 @@ import android.os.Handler
 import android.os.Looper
 import android.widget.ProgressBar
 import android.widget.TextView
-import com.example.umnlifeapp.MahasiswaOverall
 import java.text.SimpleDateFormat
 import java.util.*
 
